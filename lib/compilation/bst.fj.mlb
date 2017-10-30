@@ -1,0 +1,13 @@
+local
+  ../210basis.fj.mlb
+  signatures.fj.mlb
+
+  ../structures/bst/MkTreapBase.sml
+  ../structures/bst/MkTreap.sml
+  ../structures/bst/MkAugTreap.sml
+in
+  signature BST
+  signature AUG_BST
+  functor MkAugTreap
+  functor MkTreap
+end

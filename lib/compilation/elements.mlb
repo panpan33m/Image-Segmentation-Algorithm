@@ -1,0 +1,39 @@
+local
+  ../210basis.mlb
+
+  signatures.mlb
+  primitives.mlb
+  sequence.mlb
+  table.mlb
+  hashing.mlb
+
+  ../structures/elements/BoolElt.sml
+  local
+    $(SML_LIB)/basis/basis.mlb
+  in
+    ../structures/elements/RealElt.sml
+  end
+  ../structures/elements/IntElt.sml
+  ../structures/elements/StringElt.sml
+  ../structures/elements/UnitElt.sml
+
+  ../structures/elements/MkOptionElt.sml
+  ../structures/elements/MkTripleElt.sml
+  ../structures/elements/MkPairElt.sml
+  ../structures/elements/MkSeqElt.sml
+(*  ../structures/elements/MkListElt.sml *)
+in
+  signature ELEMENT
+
+  structure BoolElt
+  structure RealElt
+  structure IntElt
+  structure StringElt
+  structure UnitElt
+
+(*  functor MkListElt *)
+  functor MkOptionElt
+  functor MkPairElt
+  functor MkSeqElt
+  functor MkTripleElt
+end

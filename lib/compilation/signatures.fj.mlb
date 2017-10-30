@@ -1,0 +1,67 @@
+local
+   ../210basis.fj.mlb
+
+   ../signatures/misc/PRIMITIVES.sig
+   ../signatures/misc/GRANULARITY_CONTROL.sig
+
+   ../signatures/sequence/SEQUENCE.sig
+   ../signatures/sequence/SEQUENCE_EXTRA.sig
+   (*../signatures/sequence/SEQUENCE_G.sig*)
+   ../signatures/sequence/ST_SEQUENCE.sig
+
+   ../signatures/misc/MONOID.sig
+   ../signatures/key/EQKEY.sig
+   ../signatures/key/ORDKEY.sig
+
+   ../signatures/bst/BST.sig
+   ../signatures/bst/AUG_BST.sig
+
+   ../signatures/set/SET.sig
+   ../signatures/set/ORDSET.sig
+
+   local
+      $(SML_LIB)/basis/basis.mlb
+   in
+      ../signatures/misc/HASHING.sig
+   end
+   ../signatures/key/HASHKEY.sig
+   ../signatures/key/ELEMENT.sig
+
+   ../signatures/table/TABLE.sig
+   ../signatures/table/ORDTABLE.sig
+   ../signatures/table/AUG_ORDTABLE.sig
+
+   ../signatures/pq/PQ.sig
+
+   ../signatures/random/RANDOM210.sig
+
+in
+   signature SEQUENCE
+   signature SEQUENCE_EXTRA
+   (*signature SEQUENCE_G*)
+   signature ST_SEQUENCE
+
+   signature BST
+   signature AUG_BST
+
+   signature SET
+   signature ORDSET
+
+   signature TABLE
+   signature ORDTABLE
+   signature AUG_ORDTABLE
+
+   signature EQKEY
+   signature ORDKEY
+   signature HASHKEY
+   signature ELEMENT
+
+   signature PQ
+
+   signature RANDOM210
+
+   signature PRIMITIVES
+   signature GRANULARITY_CONTROL
+   signature MONOID
+   signature HASHING
+end

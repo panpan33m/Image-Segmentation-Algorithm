@@ -1,0 +1,2 @@
+Skeleton 5
+d3f±ä¢ArraySlice"aä¢ArraySequenceBase"jh4egp1ä¢Primitives"f4d"Int"d"List"ÿ-d"String"ad"A"gp1d"Array"ad"AS"gpÿgp1c"SEQUENCE"ad"TransparentArraySequence"jh3egp1ÿf2d"Option"ÿ-ad"Fusion"h0gp1c"SEQUENCE_EXTRA"

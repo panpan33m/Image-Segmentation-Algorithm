@@ -1,0 +1,7 @@
+Group
+  structure TestSuite
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+
+  ../structures/misc/TestSuite.sml

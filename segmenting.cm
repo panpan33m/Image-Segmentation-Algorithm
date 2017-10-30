@@ -1,0 +1,10 @@
+Group is
+  $/basis.cm
+  support/support.cm
+
+  MkBoruvkaSegmenter.sml
+
+  segmenting/ForestImage.sml
+  segmenting/ImageGraph.sml
+  segmenting/ImageIO.sml
+  segmenting/SegTester.sml

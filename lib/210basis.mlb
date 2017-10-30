@@ -1,0 +1,25 @@
+$(SML_LIB)/basis/pervasive.mlb
+local
+  $(SML_LIB)/basis/basis.mlb
+in
+  structure Array
+  structure ArraySlice
+  structure Bool
+  structure Char
+  structure General
+  structure Int
+  structure IntInf
+  structure LargeInt
+  structure LargeReal
+  structure LargeWord
+  structure List
+  structure ListPair
+  structure Math
+  structure Option
+  structure Real
+  structure String
+  structure Vector
+  structure VectorSlice
+  structure Word
+  structure Word8
+end

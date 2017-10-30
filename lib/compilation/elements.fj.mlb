@@ -1,0 +1,39 @@
+local
+  ../210basis.fj.mlb
+
+  signatures.fj.mlb
+  primitives.fj.mlb
+  sequence.fj.mlb
+  table.fj.mlb
+  hashing.fj.mlb
+
+  ../structures/elements/BoolElt.sml
+  local
+    $(SML_LIB)/basis/basis.mlb
+  in
+    ../structures/elements/RealElt.sml
+  end
+  ../structures/elements/IntElt.sml
+  ../structures/elements/StringElt.sml
+  ../structures/elements/UnitElt.sml
+
+  ../structures/elements/MkOptionElt.sml
+  ../structures/elements/MkTripleElt.sml
+  ../structures/elements/MkPairElt.sml
+  ../structures/elements/MkSeqElt.sml
+(*  ../structures/elements/MkListElt.sml *)
+in
+  signature ELEMENT
+
+  structure BoolElt
+  structure RealElt
+  structure IntElt
+  structure StringElt
+  structure UnitElt
+
+(*  functor MkListElt *)
+  functor MkOptionElt
+  functor MkPairElt
+  functor MkSeqElt
+  functor MkTripleElt
+end

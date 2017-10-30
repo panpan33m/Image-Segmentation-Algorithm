@@ -1,0 +1,2 @@
+Skeleton 5
+ae"MkBSTTable"i3aдўBST"gp1cяaдўSeq"gp1c"SEQUENCE"f4яядўOption"d"String"jh4aдўKey"gp2яяЃбязр±яad"Base"h2egp1яf6d"Int"CяЃяя8d"Primitives"d"Array"Nad"Set"h2aяЃgp1яЃяЃgp1c"ORDTABLE"

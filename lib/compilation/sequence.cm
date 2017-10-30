@@ -1,0 +1,24 @@
+Group
+  signature SEQUENCE
+  signature SEQUENCE_EXTRA
+  signature ST_SEQUENCE
+
+  structure ArraySequence
+  structure SerialArraySequence
+  structure ListSequence
+  functor MkSTSequence
+
+  signature SEQUENCE_UTILS
+  functor SeqUtils
+
+is
+  ../210basis.cm
+  signatures.cm
+  primitives.cm
+
+  ../structures/sequence/array/TransparentArraySequence.sml
+  ../structures/sequence/array/TransparentSerialArraySequence.sml
+  ../structures/sequence/array/ArraySequences.sml
+  ../structures/sequence/ListSequence.sml
+  ../structures/sequence/MkSTSequence.sml
+  ../structures/sequence/SeqUtils.sml

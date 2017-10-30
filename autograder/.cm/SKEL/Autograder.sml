@@ -1,0 +1,2 @@
+Skeleton 5
+d2aå¢MkAutograder"h8egp1d"TestSuite"aä¢Seq"gp1d"ArraySequence"aä¢Rand"gp1d"DotMix"Caä¢Table"jh1ad"Key"gp1d"IntElt"gp1e"MkTreapTable"aä¢StuSegmenter"jh1aÿ?gp1ÿ?gp1e"MkBoruvkaSegmenter"aä¢RefSegmenter"jh1aÿ%çğ±ÿ%gp1e"MkSlowKruskalSegmenter"beÿƒf4ä¢Int"d"Result"ÿÿ‚8f5Cÿƒ5ÿ%d"List"d"Util"d"Tester"Cÿ‚d"Tests"d"Checker"d"Grader"d"Logger"NNad"Autograder"jh0gp1ÿ

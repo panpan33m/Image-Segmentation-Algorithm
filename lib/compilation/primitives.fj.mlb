@@ -1,0 +1,10 @@
+local
+   ../210basis.fj.mlb
+   signatures.fj.mlb
+
+   ../structures/misc/Primitives.fj.sml
+   (*../structures/misc/GranularityControl.sml*)
+in
+   structure Primitives
+   (*structure GranularityControl*)
+end

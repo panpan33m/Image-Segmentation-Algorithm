@@ -1,0 +1,10 @@
+Group
+  signature PQ
+  functor MkLeftistHeapPQ
+  functor MkSkewBinomialHeapPQ
+is
+  ../210basis.cm
+  signatures.cm
+
+  ../structures/pq/MkLeftistHeapPQ.sml
+  ../structures/pq/MkSkewBinomialHeapPQ.sml

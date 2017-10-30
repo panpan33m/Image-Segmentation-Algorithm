@@ -1,0 +1,2 @@
+Skeleton 5
+d4f1d"ArraySlice"aä¢ArraySequences"jh2aä¢Parallel"jgp1d"TransparentArraySequence"çğ±ã¢SEQUENCE_EXTRA"aä¢Serial"jgp1d"TransparentSerialArraySequence"çğ±ã¢SEQUENCE"h2aÿ'ÿaÿ&ÿ‚ad"ArraySequence"gp2ÿÿ'ad"SerialArraySequence"gp2ÿÿ&

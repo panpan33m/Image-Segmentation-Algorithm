@@ -1,0 +1,31 @@
+local
+  ../210basis.fj.mlb
+
+  signatures.fj.mlb
+  primitives.fj.mlb
+
+  (*../structures/sequence/ArraySequenceG.fj.sml*)
+  ../structures/sequence/SequenceGranularity.fj.sml
+  ../structures/sequence/array/TransparentArraySequence.fj.sml
+  ../structures/sequence/array/TransparentSerialArraySequence.fj.sml
+  ../structures/sequence/array/ArraySequences.sml
+  ../structures/sequence/ListSequence.sml
+  ../structures/sequence/MkSTSequence.sml
+  ../structures/sequence/ChunkedTreeSequence.sml
+in
+  signature SEQUENCE
+  (*signature SEQUENCE_G*)
+  signature ST_SEQUENCE
+
+  (*structure ArraySequence = ArraySequenceG*)
+  structure SequenceGranularity
+
+  structure SerialArraySequence
+  structure ArraySequence
+
+  structure ListSequence
+  functor MkSTSequence
+  structure VectorBaseSequence
+  structure ChunkedTreeSequence
+  functor MkChunkedTreeSequence
+end

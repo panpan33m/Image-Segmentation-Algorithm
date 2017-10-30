@@ -1,0 +1,10 @@
+local
+   ../210basis.mlb
+   signatures.mlb
+
+   ../structures/misc/Primitives.sml
+   ../structures/misc/GranularityControl.sml
+in
+   structure Primitives
+   structure GranularityControl
+end

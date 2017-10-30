@@ -1,0 +1,16 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  $(SML_LIB)/basis/mlton.mlb
+
+  ../structures/misc/StatRunner.fj.sml
+
+  local
+    table.fj.mlb
+    elements.fj.mlb
+  in
+    ../structures/misc/CommandLineArgs.sml
+  end
+in
+  structure StatRunner
+  structure CommandLineArgs
+end

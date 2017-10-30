@@ -1,0 +1,14 @@
+Group
+  signature RANDOM210
+  functor MkDotMixParams
+  structure DotMix
+  structure MersenneTwister
+is
+  ../210basis.cm
+  $/basis.cm
+
+  signatures.cm
+  primitives.cm
+
+  ../structures/random/DotMix.sml
+  ../structures/random/MersenneTwister.sml

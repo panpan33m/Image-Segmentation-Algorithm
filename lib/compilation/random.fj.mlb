@@ -1,0 +1,18 @@
+local
+  ../210basis.fj.mlb
+
+  signatures.fj.mlb
+  primitives.fj.mlb
+
+  ../structures/random/MersenneTwister.sml
+  local
+    $(SML_LIB)/basis/basis.mlb
+  in
+    ../structures/random/DotMix.sml
+  end
+in
+  signature RANDOM210
+  functor MkDotMixParams
+  structure DotMix
+  structure MersenneTwister
+end

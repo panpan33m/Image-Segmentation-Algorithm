@@ -1,0 +1,2 @@
+Skeleton 5
+ae"MkBSTAugTable"i3aдўBST"gp1c"AUG_BST"aдўSeq"gp1c"SEQUENCE"f4яя(дўOption"d"String"jh5CaдўKey"gp2яяЃaдўVal"gp2яяЃ(бя(зр±я(ad"Base"h2egp1яf6d"Int"CяЃя(яЃd"Primitives"d"Array"Nad"Set"h2aяЃgp1яЃяЃ6Ngp1c"AUG_ORDTABLE"

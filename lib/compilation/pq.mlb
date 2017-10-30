@@ -1,0 +1,11 @@
+local
+  ../210basis.mlb
+  signatures.mlb
+
+  ../structures/pq/MkLeftistHeapPQ.sml
+  ../structures/pq/MkSkewBinomialHeapPQ.sml
+in
+  signature PQ
+  functor MkLeftistHeapPQ
+  functor MkSkewBinomialHeapPQ
+end

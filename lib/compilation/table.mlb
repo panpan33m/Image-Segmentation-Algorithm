@@ -1,0 +1,20 @@
+local
+  ../210basis.mlb
+  signatures.mlb
+  primitives.mlb
+  bst.mlb
+  sequence.mlb
+
+  ../structures/table/MkBSTTable.sml
+  ../structures/table/MkBSTAugTable.sml
+  ../structures/table/MkTreapTable.sml
+  ../structures/table/MkTreapAugTable.sml
+in
+  signature TABLE
+  signature ORDTABLE
+  signature AUG_ORDTABLE
+  functor MkBSTTable
+  functor MkBSTAugTable
+  functor MkTreapTable
+  functor MkTreapAugTable
+end

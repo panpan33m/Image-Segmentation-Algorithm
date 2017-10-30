@@ -1,0 +1,25 @@
+local
+   ../210basis.mlb
+
+   signatures.mlb
+   primitives.mlb
+
+   local
+      ../structures/sequence/ArraySequence.sml
+   in
+      ../structures/sequence/ArraySequenceG.sml
+   end
+
+   ../structures/sequence/ListSequence.sml
+   ../structures/sequence/MkSTSequence.sml
+   ../structures/sequence/ChunkedTreeSequence.sml
+in
+   signature SEQUENCE
+   signature SEQUENCE_G
+   signature ST_SEQUENCE
+
+   structure ArraySequence = ArraySequenceG
+   structure ListSequence
+   functor MkSTSequence
+   structure ChunkedTreeSequence
+end

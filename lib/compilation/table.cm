@@ -1,0 +1,19 @@
+Group
+  signature TABLE
+  signature ORDTABLE
+  signature AUG_ORDTABLE
+  functor MkBSTTable
+  functor MkBSTAugTable
+  functor MkTreapTable
+  functor MkTreapAugTable
+is
+  ../210basis.cm
+  signatures.cm
+  primitives.cm
+  bst.cm
+  sequence.cm
+
+  ../structures/table/MkBSTTable.sml
+  ../structures/table/MkBSTAugTable.sml
+  ../structures/table/MkTreapTable.sml
+  ../structures/table/MkTreapAugTable.sml

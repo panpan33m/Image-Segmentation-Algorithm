@@ -1,0 +1,12 @@
+Group
+  signature BST
+  signature AUG_BST
+  functor MkAugTreap
+  functor MkTreap
+is
+  ../210basis.cm
+  signatures.cm
+
+  ../structures/bst/MkTreapBase.sml
+  ../structures/bst/MkTreap.sml
+  ../structures/bst/MkAugTreap.sml
